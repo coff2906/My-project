@@ -22,8 +22,8 @@ def loginform():
     login_screen = Tk()
     login_screen.title("Login")
     login_screen.geometry("300x250")
-    Label(login_screen, text="Nhập thông tin đăng nhập").pack()
-    Label(login_screen, text="").pack()
+    Label(login_screen, text="Nhập thông tin đăng nhập", pady=10 ).pack()
+    # Label(login_screen, text="").pack()
 
     username_verify = StringVar()
     password_verify = StringVar()
